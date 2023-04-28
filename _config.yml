@@ -1,0 +1,19 @@
+title: Praktikum Pemrograman Lanjut
+description: Praktikum Pemrograman Lanjut 2023
+theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.1.0"
+
+heading_anchors: true
+enable_copy_code_button: true
+footer_content: ""
+color_scheme: dark
+
+callouts:
+  highlight:
+    color: yellow
