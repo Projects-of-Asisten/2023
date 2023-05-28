@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 {: .highlight }
-💡 _Last Update_: 21 Mei 2023
+💡 _Last Update_: 28 Mei 2023
 
 # The End of Us (Polymorphism)
 
@@ -15,7 +15,7 @@ nav_order: 1
 
 Download the project template here
 
-[Download](https://www.google.com){: .btn }
+[Download](https://github.com/Projects-of-Asisten/2023/raw/main/p4/soal/template_polymorphism.zip){: .btn }
 
 ## **PROLOGUE**
 
