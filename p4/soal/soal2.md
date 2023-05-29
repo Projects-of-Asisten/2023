@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 {: .highlight }
-💡 _Last Update_: 28 Mei 2023
+💡 _Last Update_: 29 Mei 2023 (Update the attack formula)
 
 # The End of Us (Polymorphism)
 
@@ -118,14 +118,14 @@ stateDiagram-v2
 
 ### Attack Formula:
 
-When zombie and human attack each other, their ATK and DEF stats are used to determine the winner. The winner is determined by comparing the effective attack and defense values of the entities. The effective attack value of a entities is calculated as their ATK stat minus the opponent's DEF stat. If the effective attack value is negative, it is treated as zero. The effective defense value of a entities is calculated as their DEF stat plus the opponent's DEF stat. To determine the winner of the combat, you compare the effective attack value of one entities to the effective defense value of the other, and vice versa. The entities with the higher effective attack value wins the combat.
+When zombies and humans attack each other, their ATK and DEF stats are used to determine the winner, the winner is determined by comparing the effective attack of each entity. The effective attack value of an entity is calculated as its ATK stat minus the opponent's DEF stat. To determine the winner of the combat, you compare the effective attack value of humans to the effective attack value of the zombie. The entities with the higher effective attack value win the combat.
 
-The formula for calculating the effective attack and defense values is:
+The formula for calculating the effective attack is:
 
 ```python
 Effective Attack Value = max(ATK - DEF_opponent, 0)
-Effective Defense Value = DEF + DEF_opponent
 ```
+The defense remains the same even after the entities are attacked.
 
 Where:
 
